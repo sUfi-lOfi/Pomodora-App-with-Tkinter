@@ -85,9 +85,9 @@ canvas_text = canvas.create_text(100,130,fill="#FFFFFF",text="00:00",font=("Free
 status_label = Label(text = "Status",font=("FreeMono",40,"bold"))
 
 #------------User Input--------------#
-work_int_label = Label(text = "Enter the work interval : ",font=("FreeMono",12))
+work_int_label = Label(text = "Enter the work span : ",font=("FreeMono",12))
 work_int_entry = Entry(width=10)
-work_periods = Label(text = "Enter the work interval : ",font=("FreeMono",12))
+work_periods = Label(text = "Enter the work recursion : ",font=("FreeMono",12))
 word_periods_entry = Entry(width=10)
 
 #---------------Start & Reset Button---------------#
